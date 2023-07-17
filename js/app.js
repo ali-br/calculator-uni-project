@@ -130,16 +130,3 @@ const machine = (a, b, c, type) => {
   inputDiv.style.display = "none";
   mainMath.innerHTML = mainMath.innerHTML + mathWay;
 };
-
-
-/* async function countGithub(repo) {
-    const response = await fetch(`https://api.github.com/repos/${repo}/stats/contributors`)
-    const contributors = await response.json();
-    const lineCounts = contributors.map(contributor => (
-        contributor.weeks.reduce((lineCount, week) => lineCount + week.a - week.d, 0)
-    ));
-    const lines = lineCounts.reduce((lineTotal, lineCount) => lineTotal + lineCount);
-    window.alert(lines);
-}
-
-countGithub('DinonowDev/Calculate-the-quadratic-equation'); // or count anything you like */
